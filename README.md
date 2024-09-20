@@ -53,7 +53,7 @@ bash script.bash Vasya Pupkin
 
 ![scr8](https://github.com/user-attachments/assets/169d355f-9663-445a-aa81-95fada1e4873)
 
-5. Вывод успешный, принимается несколько задача выполнена.
+5. Вывод успешный, принимается несколько слов при вводе, задача выполнена.
 
 ![scr9](https://github.com/user-attachments/assets/147e1dc7-99d0-435e-aebf-4bc84f9607d9)
 
