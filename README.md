@@ -1,43 +1,40 @@
 ## Лабораторная работа 1
-## Выполнила Суханова Мария (467635, K3160)
+### Выполнила Суханова Мария (467635, K3160)
 
 Я начала выполнение работы с ознакомления с работой терминала на Linux Mint по инструкции, указанной в изначальном файле readme.
 
 1. Создала новый файл с именем `script.bash`
 
-![image](https://drive.google.com/file/d/1V7e8POXUoSc-CGnBriLdIL7llc_BBBe5/view?usp=drive_link)
+![scr1](https://github.com/user-attachments/assets/e9533bed-c6e4-4813-95d3-d160fd3cfbed)
 
 2. Открыла созданный файл `script.bash` для редактирования при помощи команды `xed`.
 
-![image](https://drive.google.com/file/d/1ihSruFPuZbfD52UK116ZzVZR5Vxq-cvn/view?usp=drive_link)
+![scr2](https://github.com/user-attachments/assets/bd9f11ac-58fc-4002-bc7e-41a0aa60fc8a)
 
 3. Впишисала предоставленный в лабораторной работе скрипт.
 
-![image](https://drive.google.com/file/d/1NmGlg8YfIAgY0aMNBCEA292124O5NzIh/view?usp=drive_link)
+![scr3](https://github.com/user-attachments/assets/acf335ff-f257-46c3-b5e8-3257e2d2ac41)
 
 4. Сохранила и закрыла текстовый редактор, а затем запустила bash-скрипт через терминал. Получился вывод "Welcome to IMTO University".
 
-![image](https://drive.google.com/file/d/1oasiLEV2yBwUuwggtH3rTFIytipbRXAB/view?usp=drive_link)
+![scr4](https://github.com/user-attachments/assets/4a400cc3-5dff-4a57-b0a2-11e5cf1ba3fa)
 
+## Выполнение задачи 1
 
+Условия задачи следующие:
 
-
-
-А теперь, используя знания полученные из лекций, дополнительных источников и, добавив к этому немного смекалки, решите следующую задачу.
-
-### Задача
-
-Модифицируйте файл `script.bash` так, чтобы при его запуске в терминале в виде
+*Модифицируйте файл `script.bash` так, чтобы при его запуске в терминале в виде*
 
 ```bash
 bash script.bash Vasya Pupkin
 ```
 
-Вывод был
+*Вывод был*
 
 `Welcome, Vasya Pupkin`
 
-*Hint:* Скрипт должен работать для любых имен, даже если это Benedict Timothy Carlton Cumberbatch.
+*Hint: Скрипт должен работать для любых имен, даже если это Benedict Timothy Carlton Cumberbatch.*
 
+Для решения этой задачи понадобится составить код так, чтобы "Welcome, " оставалось статичным при любом вводе, а введённое имя отображалось сразу после, каким бы оно ни было. Для исполнения этого я сделала следующее:
 
-![image](https://github.com/user-attachments/assets/7fa99c40-727f-4437-922c-d596e87a44b3)
+1. 
